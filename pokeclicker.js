@@ -1,3 +1,14 @@
+// ==UserScript==
+// @name         PokeClicker Autos
+// @namespace    http://tampermonkey.net/
+// @version      2026-03-04
+// @description  try to take over the world!
+// @author       You
+// @match        https://www.pokeclicker.com/
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=pokeclicker.com
+// @grant        none
+// ==/UserScript==
+
 let clicker;
 let combatUsage;
 let berryFarm;
