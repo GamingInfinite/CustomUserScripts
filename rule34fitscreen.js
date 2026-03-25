@@ -12,7 +12,7 @@
 (function() {
     'use strict';
     
-    let video = document.getElementById("gelcomVideoContainer")
+    let video = document.getElementById("gelcomVideoPlayer")
     let image = document.getElementById("image")
 
     if (video !== null) {
