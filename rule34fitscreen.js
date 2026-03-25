@@ -15,11 +15,15 @@
     let video = document.getElementById("gelcomVideoContainer")
     let image = document.getElementById("image")
 
-    video.style.maxHeight = "75vh"
-    video.style.height = "auto"
-    video.style.width = "auto"
+    if (video !== null) {
+        video.style.maxHeight = "75vh"
+        video.style.height = "auto"
+        video.style.width = "auto"
+    }
 
-    image.style.maxHeight = "75vh"
-    image.style.height = "auto"
-    image.style.width = "auto"
+    if (image !== null) {
+        image.style.maxHeight = "75vh"
+        image.style.height = "auto"
+        image.style.width = "auto"
+    }
 })();
